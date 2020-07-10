@@ -6,7 +6,7 @@
 /*   By: leselela <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/09 16:02:16 by leselela          #+#    #+#             */
-/*   Updated: 2020/07/10 11:12:31 by leselela         ###   ########.fr       */
+/*   Updated: 2020/07/10 14:00:09 by leselela         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include <unistd.h>
@@ -26,10 +26,4 @@ void    ft_print_numbers(void)
 		b-=-1;
 	}
 
-}
-int   main(void)
-{
-	ft_print_numbers();
-	ft_putchar('\n');
-	return(0);
 }
